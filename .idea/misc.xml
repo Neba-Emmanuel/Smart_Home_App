@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Emmis/StudioProjects/HelloWorld/app/src/main/res/drawable/gradient_drawable.xml" value="0.129" />
+        <entry key="..\:/Users/Emmis/StudioProjects/HelloWorld/app/src/main/res/drawable/ic_launcher_background.xml" value="0.129" />
+        <entry key="..\:/Users/Emmis/StudioProjects/HelloWorld/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/drawable/background.xml" value="0.245" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/drawable/bottom_nav.xml" value="0.245" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/drawable/fill_button.xml" value="0.245" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/drawable/google.xml" value="0.245" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/drawable/gradient_drawable.xml" value="0.245" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/drawable/input.xml" value="0.245" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/drawable/round_corners.xml" value="0.245" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/drawable/unfill_button.xml" value="0.245" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/layout-w1240dp/activity_signup.xml" value="0.251171875" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/layout-w936dp/activity_signup.xml" value="0.2046875" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/layout/activity_signup.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/layout/activity_signup2.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/layout/flash_screen.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/layout/login.xml" value="0.25" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.136" />
+        <entry key="..\:/Users/Emmis/StudioProjects/Smarthome/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.136" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
