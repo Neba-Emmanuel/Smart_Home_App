@@ -22,11 +22,11 @@ class Login : AppCompatActivity() {
         }
 
 //        go to app dashboard
-        val appDashboardClick = findViewById<Button>(R.id.loginbtn)
-
-        appDashboardClick.setOnClickListener(){
-            val intent = Intent(this,MainActivity::class.java)
-            startActivity(intent)
-        }
+//        val appDashboardClick = findViewById<Button>(R.id.loginbtn)
+//
+//        appDashboardClick.setOnClickListener(){
+//            val intent = Intent(this,MainActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 }
