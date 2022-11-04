@@ -26,7 +26,7 @@ class Signup : AppCompatActivity() {
             startActivity(intent)
             overridePendingTransition(0,0)
         }
-    
+
 //        go to app dashboard
 //        val appDashboardClick = findViewById<Button>(R.id.loginbtn)
 //
@@ -60,6 +60,6 @@ class Signup : AppCompatActivity() {
             else{
                 Toast.makeText(this,"Please fill the form", Toast.LENGTH_SHORT).show()
             }
-    }
+        }
     }
 }
