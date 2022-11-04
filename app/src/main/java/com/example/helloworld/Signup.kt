@@ -26,7 +26,7 @@ class Signup : AppCompatActivity() {
             startActivity(intent)
             overridePendingTransition(0,0)
         }
-
+    
 //        go to app dashboard
 //        val appDashboardClick = findViewById<Button>(R.id.loginbtn)
 //
@@ -45,7 +45,7 @@ class Signup : AppCompatActivity() {
                 if (Pwd == CfmPwd){
                     firebaseAuth.createUserWithEmailAndPassword(Email,Pwd).addOnCompleteListener{
                         if (it.isSuccessful){
-                            val intent = Intent(this,MainActivity::class.java)
+                            val intent = Intent(this,Login::class.java)
                             startActivity(intent)
                         }
                         else{
