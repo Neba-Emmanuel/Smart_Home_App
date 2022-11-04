@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.helloworld.databinding.ActivitySignup2Binding
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuthUserCollisionException
 
 class Signup : AppCompatActivity() {
     private lateinit var binding: ActivitySignup2Binding
@@ -49,7 +50,14 @@ class Signup : AppCompatActivity() {
                             startActivity(intent)
                         }
                         else{
-                            Toast.makeText(this,it.exception.toString(), Toast.LENGTH_SHORT).show()
+                            try {
+                                throw it.getException()!!
+                            } catch (e: FirebaseAuthUserCollisionException) {
+                                // email already in use
+                                Toast.makeText(applicationContext,"Email already taken!", Toast.LENGTH_SHORT).show()
+                            }
+                            Toast.makeText(this, "Sign Up Failed!", Toast.LENGTH_SHORT).show()
+//                            Toast.makeText(this,it.exception.toString(), Toast.LENGTH_SHORT).show()
                         }
                     }
                 }

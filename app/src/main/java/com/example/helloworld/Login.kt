@@ -42,7 +42,7 @@ class Login : AppCompatActivity() {
                             startActivity(intent)
                         }
                         else{
-                            Toast.makeText(this,it.exception.toString(), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, "Log In failed, Please Check Your login Credentials ", Toast.LENGTH_SHORT).show()
                         }
                     }
             }
