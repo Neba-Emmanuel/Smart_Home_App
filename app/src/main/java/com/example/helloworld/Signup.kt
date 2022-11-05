@@ -1,13 +1,13 @@
 package com.example.helloworld
 import android.content.Intent
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.helloworld.databinding.ActivitySignup2Binding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthUserCollisionException
+
 
 class Signup : AppCompatActivity() {
     private lateinit var binding: ActivitySignup2Binding
@@ -46,6 +46,9 @@ class Signup : AppCompatActivity() {
                 if (Pwd == CfmPwd){
                     firebaseAuth.createUserWithEmailAndPassword(Email,Pwd).addOnCompleteListener{
                         if (it.isSuccessful){
+                            val user = FirebaseAuth.getInstance().currentUser
+                            user!!.sendEmailVerification()
+
                             val intent = Intent(this,Login::class.java)
                             startActivity(intent)
                         }
